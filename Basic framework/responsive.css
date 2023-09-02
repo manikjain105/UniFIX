@@ -1,0 +1,73 @@
+/* Creating a hamburger: */
+.line{
+    width: 33px;
+    background-color: white;
+    height:5px ;
+    margin: 3px 3px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    cursor: pointer;
+}
+@media only screen and (max-width:680px){
+    .burger{
+        display: block;
+        
+    }
+    .navbar{
+        height: 10vh;
+        flex-direction: column;
+        transition:all 0.7s ease-out;
+    }
+    .navlist{
+        flex-direction: column;
+        /* transition:all 0.7s ease-out; */
+    }
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: brown; */
+        /* width: 50%; */
+    }
+    .search input{
+        text-align: center;
+    }
+
+    .logo{
+        width: 30%;
+    }
+    .form input{
+        font-size: 3vw;
+    }
+    .form-input{
+        font-size:3vw;
+    }
+    .text-center{
+        font-size: 6vw;
+        margin-bottom: 0px;
+    }
+    .v-class{
+        /* opacity: zero; */
+        /* or  */
+        visibility: hidden; 
+       
+    }
+    .nav-h{
+        height: 55vh;
+       
+    }
+}
+@media only screen  and (max-width:580px)
+{
+    .secRight{
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+    .firstSection{
+        height: 75vh;
+    }
+}

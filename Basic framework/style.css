@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        cursor: pointer;
+        
+    
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+
+.navlist {
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* justify-content: center; */
+}
+
+.navlist li {
+   
+    padding: 26 30px;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+
+}
+
+.navlist a {
+    text-decoration: none;
+    
+
+}
+
+.logo{
+    width: 15%;
+
+}
+
+.logo img {
+    width: 77%;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 50px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* background-color: brown; */
+    width: 50%;
+    text-align: right;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../css/images\bgimg.avif');
+    /* background-color: aqua; */
+    /* background-image: url('../css/images/bgimg.avif') center cover no-repeat; */
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.search button{
+    font-size: 0.85rem;
+    /* font-weight: bolder; */
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background: none;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.search input{
+    font-size: 0.813rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px;
+}
+.firstSection
+{
+    height: 65vh;
+    
+}
+.box-main {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    max-width: 85%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+.firstHalf{
+    width: 80%;
+}
+.secondHalf
+{
+    width: 20%;
+}
+.secondHalf img{
+    width: 20vw;
+    border-radius: 25px;
+    border: 2px solid;
+    /* margin: 30px; */
+}
+.textBig{
+   font-size: 5vh;
+}
+.textSmall{
+font: 2vh;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.5vh;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+}
+.secRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin: 30px;
+    /* padding: 6%; */
+
+ }
+.fluidImage{
+    width: 28vw;
+    border: 2px solid;
+    border-radius: 10px;
+    /* margin: 1.875rem; */
+}
+.secRight p{
+    color: black;
+    
+}
+.secLeft{
+    flex-direction: row-reverse;
+}
+
+div.paras{
+    width: 50%;
+}
+div.thumbnail{
+    width: 35%;
+}
+.contact{
+    background:  rgba(0, 0, 0, 0.7) url('../css/images\bgimg.avif');;
+    background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.form input {
+    width: 40%;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+} 
+.form input {
+    color: black;
+}
+.submit-btn{
+    color: black;
+}
+.form-input{
+    width: 40%;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+}
+.form input::placeholder{
+color: black;
+}
+.footer-text p{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.form textarea::placeholder{
+    color:black;
+    
+}
+.end {
+    border-top: 2px solid white;
+    position: relative;
+    top: 95px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    background-color: black;
+
+    padding: 10px;
+    /* text-shadow: 1px 1px 3px white; */
+    /* font-weight: bold; */
+}
+
+
